@@ -19,7 +19,7 @@ public class MainActivity extends Activity
 		
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-	getActionBar().hide();
+	//getActionBar().hide();
 		setOnClickListener(((Button)findViewById(R.id.c2p)),new View.OnClickListener(){
 			public void onClick(View p1){
 				ProgressDialog dialog = new ProgressDialog(MainActivity.this);
