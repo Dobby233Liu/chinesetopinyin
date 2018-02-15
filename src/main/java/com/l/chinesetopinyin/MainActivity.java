@@ -20,7 +20,14 @@ public class MainActivity extends Activity
         setContentView(R.layout.main);
 		setOnClickListener(((Button)findViewById(R.id.c2p)),new View.OnClickListener(){
 			public void onClick(View p1){
+				ProgressDialog dialog = new ProgressDialog(MainActivity.this);
+            
+            dialog.setMessage("I'm converting");
+            dialog.setIndeterminate(true);
+            dialog.setCancelable(false);
+            dialog.show();
 				wrotePinyin(toPinyin());
+				dialog.dismiss();
 			}
 		});
     }
