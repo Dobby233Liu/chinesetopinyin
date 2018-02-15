@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center"
+	android:orientation="vertical">
+
+	<EditText
+		android:layout_height="wrap_content"
+		android:ems="10"
+		android:layout_width="wrap_content"
+		android:hint="hanzi"
+		android:id="@+id/hz"/>
+
+	<EditText
+		android:layout_height="wrap_content"
+		android:ems="10"
+		android:layout_width="wrap_content"
+		android:id="@+id/py"
+		android:hint="pinyin"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="c2p"
+		android:layout_width="wrap_content"
+		android:id="@+id/c2p"/>
+
+</LinearLayout>
+
