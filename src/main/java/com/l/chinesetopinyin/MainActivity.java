@@ -16,8 +16,10 @@ public class MainActivity extends Activity
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
+		
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+	getActionBar().hide();
 		setOnClickListener(((Button)findViewById(R.id.c2p)),new View.OnClickListener(){
 			public void onClick(View p1){
 				ProgressDialog dialog = new ProgressDialog(MainActivity.this);
