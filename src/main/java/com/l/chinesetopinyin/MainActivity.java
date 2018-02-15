@@ -21,7 +21,7 @@ public class MainActivity extends Activity
 		setOnClickListener(((Button)findViewById(R.id.c2p)),new View.OnClickListener(){
 			public void onClick(View p1){
 				ProgressDialog dialog = new ProgressDialog(MainActivity.this);
-            
+            dialog.setTitle(R.string.app_name);
             dialog.setMessage("I'm converting");
             dialog.setIndeterminate(true);
             dialog.setCancelable(false);
