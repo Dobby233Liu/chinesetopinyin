@@ -14,7 +14,7 @@
 		android:id="@+id/hz"
 		android:typeface="serif"
 android:text="汉字转拼音"/>
-
+<!-- -->
 	<EditText
 		android:layout_height="wrap_content"
 		android:ems="10"
